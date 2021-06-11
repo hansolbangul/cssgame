@@ -1,0 +1,229 @@
+* {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    height: 10%;
+}
+
+.gameForm {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(76, 130, 225);
+    border: 1px solid white;
+}
+.form h4,
+.form h2 {
+    width: 60%;
+    height: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.form h4 {
+    margin-bottom: 40px;
+}
+
+.formBoard {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+
+.formLeft {
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+}
+.formRight {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.formLeft p {
+    height: 33px;
+    padding-top: 11px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+.formRight input {
+    height: 44px;
+    font-size: 18px;
+    color: black;
+}
+
+.rightForm {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(76, 130, 225);
+    border: 1px solid white;
+}
+
+.twoForm {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 80%;
+    border: 1px solid white;
+    position: absolute;
+    left: 50%;
+    /* margin-left: 50%; */
+    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.twoForm span {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.twoForm svg {
+    width: 100%;
+    height: 100%;
+}
+
+.rightForm span {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.rightForm svg {
+    width: 100%;
+    height: 100%;
+}
+
+.rightForm svg path {
+    color: rgb(4, 10, 88);
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    justify-content: center;
+}
+.button {
+    display: flex;
+    width: 90%;
+    height: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    justify-content: flex-end;
+}
+
+.button button {
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-right: 5px;
+    width: 5%;
+    height: 100%;
+    background-color: rgb(76, 130, 225);
+}
+
+.help {
+    display: flex;
+    width: 90%;
+    height: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-end;
+}
+
+.help button {
+    margin: 5px;
+    margin-right: 12px;
+    width: 8%;
+    background-color: rgb(76, 130, 225);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 5%;
+    color: black;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+/* 이거로 정답값 세팅*/
+.twoFormI1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    justify-content: center;
+}
+
+.twoFormI2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    align-items: center;
+}
+
+.twoFormI3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.twoFormI4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.twoFormI5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.twoFormI6 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
