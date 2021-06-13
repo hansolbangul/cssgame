@@ -46,9 +46,11 @@ const Component1 = () => {
         <div className="gameForm">
             <div className="form">
                 <h2>펭귄을 찍어보자!</h2>
-                <h4>
+                <h4 style={{ lineHeight: '1.5' }}>
                     css의 태그를 사용하여 펭귄을 카메라 포커스에 맞춰보자! 깔끔하게 맞춘 포커스는
                     펭귄의 귀여움을 더 잘 담을지도?
+                    <br />
+                    display: flex 로 선언되어있는 flex-box에 대해 게임을 통해 공부해보자!
                 </h4>
                 <h4 style={{ marginBottom: '10px' }}>칸은 총 9*9개로 이루어져 있습니다 :)</h4>
                 <div className="formBoard">
